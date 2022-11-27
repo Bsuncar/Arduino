@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+     <link rel="stylesheet" href="style.css">
+	<title>MMP 210 Homepage</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="utf-8">
+</head>
+<body id="home">
+<!--
+	<h1>sound</h1>
+	<ul>
+		<li class="link"><a href="../index.html">Home</a></li>
+	</ul>
+-->
+    <h1> Frog Jumper</h1>
+    <p> Get across to the other side without getting hit by a car or log! Use the potentiometer to move 
+    left to right and use the top and button directional buttons to move up and down!</p>
+	<script src="p5.min.js"></script>
+    <script src="p5.sound.js"></script>
+     <script src="p5.serialport.js"></script>
+	<script src="sketch.js"></script>
+    <script>
+        document.addEventListener('keydown', ev => {
+            ev.preventDefault();
+        });
+    </script>
+</body>
+</html>
